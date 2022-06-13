@@ -1,0 +1,173 @@
+﻿{
+    "HtmlTitle" : "Super New Roles クイズ！",
+    "name" : "<font color='#ffa500'>Super</font><font color='#ff0000'>New</font><font color='#00ff00'>Roles</font>クイズ",
+    "author" : "よっキング",
+    "description" : "MOD「<font color='#ffa500'>Super</font><font color='#ff0000'>New</font><font color='#00ff00'>Roles</font>」のクイズです。",
+    "Quizs" : [
+        {
+            "quiz" : "全員の役職がわかり、最後まで生き残っていたら勝利できる役職は？",
+            "type" : "0",
+            "niceanswer" : "神",
+            "badanswers" : [
+                "チェッカー","シーア","タスカー"
+            ],
+            "explanation" : "みんな大好き「神」！常識だよね！"
+        },
+        {
+            "quiz" : "SuperNewRolesの「Super」の色は？",
+            "type" : "0",
+            "niceanswer" : "オレンジ",
+            "badanswers" : [
+                "黄緑","緑","黄色"
+            ],
+            "explanation" : "こんなのタイトル画面で出て常識だよね！"
+        },
+        {
+            "quiz" : "タスクを終わらせると誰かのスピードが早くなるの役職は？",
+            "type" : "0",
+            "niceanswer" : "ない",
+            "badanswers" : [
+                "ブースター","タスクブースター","スピードブースター"
+            ],
+            "explanation" : "別のMODならあるけどSuperNewRolesにはないよね！"
+        },
+        {
+            "quiz" : "SuperNewRolesの開発者(Github名)は？",
+            "type" : "0",
+            "niceanswer" : "ykundesu",
+            "badanswers" : [
+                "ysandesu","ykundayo","よっキング"
+            ],
+            "explanation" : "こんなのタイトル画面で出て常識だよね！"
+        },
+        {
+            "quiz" : "SuperNewRolesには、仲間のインポスターがわからなくなるモードがある",
+            "type" : "1",
+            "niceanswer" : "true",
+            "explanation" : "「インポスター視認不能モード」があるよね！"
+        },
+        {
+            "quiz" : "役職「テレポーター」は自分が決めたところにテレポートできる役職である。",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "この能力は、役職の「ムービング」・「イビルムービング」の能力だよね！"
+        },
+        {
+            "quiz" : "SuperNewRolesの公式ツイッターアカウントIdは「@SuperNewRoles」である",
+            "type" : "1",
+            "niceanswer" : "true",
+            "explanation" : "公式ツイッターアカウントは「@SuperNewRoles」、開発状況アカウントは「@SNRDevs」だよね！"
+        },
+        {
+            "quiz" : "役職「クリーナー」は周りの死体を一気に削除できる",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "一気に死体を削除することはできない。"
+        },
+        {
+            "quiz" : "インポスターの視界を暗くすることができる役職は？",
+            "type" : "0",
+            "niceanswer" : "聖職者",
+            "badanswers" : [
+                "ライター","イビルライター","ダウンライター"
+            ],
+            "explanation" : "だいぶ初期に追加された役職「聖職者」！"
+        },
+        {
+            "quiz" : "死んでいる人の役職を占える役職は？",
+            "type" : "0",
+            "niceanswer" : "霊媒師",
+            "badanswers" : [
+                "占い師"
+            ],
+            "explanation" : "生きている人を占えるのが「占い師」、死んでいる人の役職を占えるのが「霊媒師」だね！"
+        },
+        {
+            "quiz" : "マッドメイトが作れるインポスター役職は？",
+            "type" : "0",
+            "niceanswer" : "イビルハッカー",
+            "badanswers" : [
+                "マッドクリエイター","マッドメーカー","マッドジェネレーター"
+            ],
+            "explanation" : "マッドメイトが作れるマッドメイトは「マッドメーカー」、マッドメイトが作れるインポスターは「イビルハッカー」だね！"
+        },
+        {
+            "quiz" : "会議中にシェリフキルできる役職は？",
+            "type" : "0",
+            "niceanswer" : "ミーティングシェリフ",
+            "badanswers" : [
+                "ミィーティングシェリフ","リモートシェリフ","会議シェリフ"
+            ],
+            "explanation" : "ミーティングシェリフ強いよね"
+        },
+        {
+            "quiz" : "SuperNewRolesにはベイトが追放されないバグがあった",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "ベイトが追放されないバグがあったのは「SuperHostRoles」だね！"
+        },
+        {
+            "quiz" : "最初に実装された幽霊役職は？",
+            "type" : "0",
+            "niceanswer" : "亡霊整備士",
+            "badanswers" : [
+                "幽霊整備士","亡霊技術士","亡霊技術者"
+            ],
+            "explanation" : "初めて実装された幽霊役職は「亡霊整備士」だね！"
+        },
+        {
+            "quiz" : "ベントメーカーは何個までベントが作れる？",
+            "type" : "0",
+            "niceanswer" : "2",
+            "badanswers" : [
+                "1","3","設定で変更可能"
+            ],
+            "explanation" : "ベントメーカーはベントを2つ作れて、ベント同士がリンクされます！"
+        },
+        {
+            "quiz" : "「マッドメイト」は属性の役職である。",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "別のMODではそうだけど、SuperNewRolesでは普通にクルーメイトの役職です！"
+        },
+        {
+            "quiz" : "ジャッカル版マッドメイトの役職は？",
+            "type" : "0",
+            "niceanswer" : "ジャッカルフレンズ",
+            "badanswers" : [
+                "ジャッカルキッズ","サイドジャッカル","フレンズジャッカル"
+            ],
+            "explanation" : "「ジャッカルフレンズ」ですね！"
+        },
+        {
+            "quiz" : "タスクを個別に設定できる役職は？",
+            "type" : "0",
+            "niceanswer" : "タスクマネージャー",
+            "badanswers" : [
+                "カスタムタスカー","カスタムタスク","ワンタスカー"
+            ],
+            "explanation" : "タスク量を設定できる役職は、「タスクマネージャー」！！"
+        },
+        {
+            "quiz" : "この中でイントロが複数用意されている役職は？",
+            "type" : "0",
+            "niceanswer" : "ナイス猫又",
+            "badanswers" : [
+                "ヴァルチャー","イビル猫又","ベイト"
+            ],
+            "explanation" : "「ナイス猫又」などの一部役職ではイントロが複数用意されていて、ランダムで表示されます！"
+        },
+        {
+            "quiz" : "悪魔はインポスターを呪う必要がある",
+            "type" : "1",
+            "niceanswer" : "true",
+            "explanation" : "呪う必要があります！"
+        },
+        {
+            "quiz" : "SuperNewRolesの役職数は80を超えている",
+            "type" : "1",
+            "niceanswer" : "true",
+            "explanation" : "やばぁい！！"
+        }
+    ]
+}
