@@ -210,6 +210,27 @@
             "type" : "2",
             "niceanswer" : "4",
             "explanation" : "「漢方薬の人」は開発者4号です！(漢方薬の人@開発者4号)"
+        },
+        {
+            "quiz" : "使える全コマンドを表示するコマンドは？(/も入れてね)",
+            "type" : "3",
+            "niceanswer" : "/commands",
+            "explanation" : "全コマンド表示コマンドは「/commands」ですよ！"
+        },
+        {
+            "quiz" : "タスクがない役職は？",
+            "type" : "3",
+            "niceanswer" : "自宅警備員",
+            "explanation" : "タスクがないならアドミンを見ればいいじゃない！"
+        },
+        {
+            "quiz" : "役職「マッドベイト」の能力は？",
+            "type" : "0",
+            "niceanswer" : "そんな役職ない",
+            "badanswers" : [
+                "キルした人に通報させる","ランダムなインポスター以外の陣営に通報させる","ベイトが分かる"
+            ],
+            "explanation" : "別のMODではありますが、SuperNewRolesにはないです！"
         }
     ]
 }
