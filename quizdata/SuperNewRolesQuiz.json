@@ -1,4 +1,4 @@
-﻿{
+{
     "HtmlTitle" : "Super New Roles クイズ！",
     "name" : "<font color='#ffa500'>Super</font><font color='#ff0000'>New</font><font color='#00ff00'>Roles</font>クイズ",
     "author" : "よっキング",
@@ -231,6 +231,15 @@
                 "キルした人に通報させる","ランダムなインポスター以外の陣営に通報させる","ベイトが分かる"
             ],
             "explanation" : "別のMODではありますが、SuperNewRolesにはないです！"
+        },
+        {
+            "quiz" : "サボタージュ「認識障害」が使えるマップは？",
+            "type" : "0",
+            "niceanswer" : "Airship",
+            "badanswers" : [
+                "The Skeld","Mira HQ","Polus","dleks ehT"
+            ],
+            "explanation" : "Airshipのみで使えるSuperNewRoles限定サボタージュ「認識障害」、ぜひ使ってみてください！"
         }
     ]
 }
