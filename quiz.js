@@ -33,6 +33,9 @@ if (parm == null){
         $("#QuizCount").html("クイズ数:"+Object.keys(data_json['Quizs']).length)
         $("#author").html("クイズ製作者:" + data_json["author"]);
         $("#description").html(data_json["description"]);
+        for (ind = 0;ind < Object.keys(data_json['Quizs']).length;ind++){
+            console.log(ind +" => "+ data_json['Quizs'][ind]["quiz"]);
+        }
       })
       // Ajaxリクエストが失敗した場合
       .fail(function(XMLHttpRequest, textStatus, errorThrown){
@@ -68,9 +71,23 @@ function GetQuizHtml(quizid){
             text += '<button type="submit" onclick='+(niceans == "true")+'Answer()>○</button>　';
             text += '<button type="submit" onclick='+(niceans != "true")+'Answer()>☓</button>　';
             break;
+        case "2":
+            text += '<input type="number" id="numinput"></input>　';
+            text += '<button type="submit" onclick=SendNum()>決定</button>　';
+            break;
     }
     text += "</center>";
     return text;
+}
+function SendNum(){
+    var quiz = data_json['Quizs'][index];
+    console.log("VALUE:"+$("#numinput").val());
+    console.log(quiz["niceanswer"]);
+    if ($("#numinput").val() == quiz["niceanswer"]){
+        trueAnswer();
+    } else {
+        falseAnswer();
+    }
 }
 function trueAnswer(){
     console.log(index+" => trueAnswer");
@@ -93,6 +110,7 @@ function AnswerEnd(IsCorrect){
     text += "</h1>"
     switch (quizdata["type"]){
         case "0":
+        case "2":
             text += "正解:" +  quizdata["niceanswer"] + "<br>"
             break;
         case "1":
@@ -112,6 +130,11 @@ function AnswerEnd(IsCorrect){
         $('#quiz').html(text)
         $('#quiz').fadeIn();
     },335);
+}
+function SetIndex(ind){
+    index = ind - 1;
+    $('#MainTitle').fadeOut();
+    Next();
 }
 function Next(){
     index++

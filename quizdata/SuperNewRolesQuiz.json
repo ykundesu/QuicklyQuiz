@@ -168,6 +168,48 @@
             "type" : "1",
             "niceanswer" : "true",
             "explanation" : "やばぁい！！"
+        },
+        {
+            "quiz" : "ベスト冤罪ヤーは冤罪をふっかける役職である。",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "ベスト冤罪ヤーは、最初の会議が終わると死亡する、可愛そうなネタ役職です！"
+        },
+        {
+            "quiz" : "役職「ドクター」とは？",
+            "type" : "0",
+            "niceanswer" : "バイタルが常に見れる役職",
+            "badanswers" : [
+                "タスクをすることにバイタルを一定期間見れる役職","バイタルで死亡してからの時間が分かる役職"
+            ],
+            "explanation" : "激強役職だね！"
+        },
+        {
+            "quiz" : "役職「ジャッカルシーア」は、役職「サイドキック」を作れる。",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "役職「サイドキック」ではなく、役職「サイドキックシーア」を作れます！"
+        },
+        {
+            "quiz" : "役職「マーリン」と役職「タスクマネージャー」の役職色は同じ",
+            "type" : "1",
+            "niceanswer" : "false",
+            "explanation" : "実は微妙に違います！"
+        },
+        {
+            "quiz" : "SuperNewRoles公式wikiのURLは？(https://は省略)",
+            "type" : "0",
+            "niceanswer" : "wikiwiki.jp/amas-snr",
+            "badanswers" : [
+                "wikiwiki.jp/amassnr","wikiwiki.jp/snr","wikiwiki.jp/SuperNewRoles","wikiwlki.jp/amas-snr","wikiwiki.jp/amas-SuperNewRoles"
+            ],
+            "explanation" : "SuperNewRoles公式wikiのリンクは、<a href='https://wikiwiki.jp/amas-snr' target='_blank'>https://wikiwiki.jp/amas-snr</a>です！"
+        },
+        {
+            "quiz" : "SuperNewRolesの開発者「漢方薬の人」は何番目の開発者？(Discordに記載している数字です)",
+            "type" : "2",
+            "niceanswer" : "4",
+            "explanation" : "「漢方薬の人」は開発者4号です！(漢方薬の人@開発者4号)"
         }
     ]
 }
