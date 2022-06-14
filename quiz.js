@@ -48,6 +48,8 @@ if (parm == null){
 // json内のタイプの種類です。
 // 0 : 複数から選択
 // 1 : ○☓
+// 2 : 入力型数字
+// 3 : 入力型テキスト
 
 function GetQuizHtml(quizid){
     console.log(Object.keys(data_json['Quizs']).length);
@@ -73,6 +75,10 @@ function GetQuizHtml(quizid){
             break;
         case "2":
             text += '<input type="number" id="numinput"></input>　';
+            text += '<button type="submit" onclick=SendNum()>決定</button>　';
+            break;
+        case "2":
+            text += '<input type="text" id="numinput"></input>　';
             text += '<button type="submit" onclick=SendNum()>決定</button>　';
             break;
     }
@@ -111,6 +117,7 @@ function AnswerEnd(IsCorrect){
     switch (quizdata["type"]){
         case "0":
         case "2":
+        case "3":
             text += "正解:" +  quizdata["niceanswer"] + "<br>"
             break;
         case "1":
