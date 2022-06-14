@@ -213,13 +213,13 @@
         },
         {
             "quiz" : "使える全コマンドを表示するコマンドは？(/も入れてね)",
-            "type" : "2",
+            "type" : "3",
             "niceanswer" : "/commands",
             "explanation" : "全コマンド表示コマンドは「/commands」ですよ！"
         },
         {
             "quiz" : "タスクがない役職は？",
-            "type" : "2",
+            "type" : "3",
             "niceanswer" : "自宅警備員",
             "explanation" : "タスクがないならアドミンを見ればいいじゃない！"
         },

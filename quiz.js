@@ -77,7 +77,7 @@ function GetQuizHtml(quizid){
             text += '<input type="number" id="numinput"></input>　';
             text += '<button type="submit" onclick=SendNum()>決定</button>　';
             break;
-        case "2":
+        case "3":
             text += '<input type="text" id="numinput"></input>　';
             text += '<button type="submit" onclick=SendNum()>決定</button>　';
             break;
