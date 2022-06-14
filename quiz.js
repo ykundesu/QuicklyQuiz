@@ -124,7 +124,6 @@ function Next(){
         $('#quiz').fadeIn();
     },335);
 }
-var url = "https://ghreuif.com";
 function ShowResult(){
     var text = "";
     var quizlen = Object.keys(data_json['Quizs']).length;
@@ -135,7 +134,7 @@ function ShowResult(){
     text += '<a href="https://twitter.com/intent/tweet?text='
     text += data_json["HtmlTitle"] + "で"+ quizlen + "問中"+ correct +"問正解しました！\n"
     text += '&url='
-    text += url
+    text += window.location.href
     text += '&via=SNRDevs"><img src="https://i.gyazo.com/568a7f19257d6d79acd02d7dd7b1104b.png"></a>'
     text += "</center>"
     $('#quiz').fadeOut();
