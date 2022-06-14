@@ -54,10 +54,10 @@ function GetQuizHtml(quizid){
     var text = "";
     text += '<center><h2>'+quiz["quiz"]+'</h2>';
     var type = quiz["type"]
+    var niceans = quiz["niceanswer"];
     switch (type){
         case "0":
             var answers = quiz["badanswers"];
-            var niceans = quiz["niceanswer"];
             answers.push(niceans);
             answers = arrayShuffle(answers);
             for (var i = 0;i<answers.length;i++){
@@ -73,10 +73,12 @@ function GetQuizHtml(quizid){
     return text;
 }
 function trueAnswer(){
+    console.log(index+" => trueAnswer");
     correct++;
     AnswerEnd(true);
 }
 function falseAnswer(){
+    console.log(index+" => falseAnswer");
     AnswerEnd(false);
 }
 function AnswerEnd(IsCorrect){
